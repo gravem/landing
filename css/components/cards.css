@@ -1,0 +1,24 @@
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+
+.card {
+  width: 23%;
+  height: 250px;
+  text-align: center;
+  box-shadow: 0 1px 6px rgba(0,0,0,0.2);
+  padding: 2%;
+}
+
+.card p {
+  color: dimgrey;
+}
+
+.card img {
+  width: 90%;
+  object-fit: fill;
+  height: 35%;
+  margin-top: 24px;
+}
